@@ -1,30 +1,39 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
-function Footer (){
-         
-        return(
-            <footer className="footer">
-                <div className="container">
-                <div className="row">
-                    <div className="col-4 col-sm-2 offset-1">
-                        <h5>Links</h5>
-                        
-                    </div>
-                    <div className="col-6 col-sm-3 text-center">
-                        <h5>Social</h5>
-                        <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram" /></a>{' '}
-                        <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/"><i className="fa fa-facebook" /></a>{' '}
-                        <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter" /></a>{' '}
-                        <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube" /></a>
-                    </div>
-                    </div>
+
+function Footer() {
+  return (
+      <div className="social-container">
+                <div class = "social">
                     
+                    <a
+                        href="https://www.linkedin.com/in/patel786/"
+                        className="linkedin"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                    </a>
+
+                    <a
+                        href="https://github.com/Nomal-patel?tab=following"
+                        className="github"
+                    >
+                        <FontAwesomeIcon icon={faGithub} size="2x" style=""/>   
+
+                    </a>
+                                           
+                    <a href="https://twitter.com/Noman85896222" className="twitter">
+                        <FontAwesomeIcon icon={faTwitter} size="2x" />
+                    </a>
                 </div>
-        </footer>
-    );
-    
-    
+            </div>
+  );
 }
 
 export default Footer;

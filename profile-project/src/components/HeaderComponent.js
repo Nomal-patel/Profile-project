@@ -1,25 +1,57 @@
-import React, { Component } from 'react';
-import {Jumbotron} from 'reactstrap';
+import React, { Component } from "react";
+import {
+  Nav,
+  Navbar,
+  NavbarBrand,
+  NavbarToggler,
+  Collapse,
+  NavItem,
+  Jumbotron
+} from "reactstrap";
+import { NavLink } from "react-router-dom";
 
+class Header extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Navbar dark sticky="top" expand="md">
+          <div class="nav-links">
+            <ul id="thenav" className="nav">
+              <li class="nav-item">
+                <a aria-current="page" class="nav-link" href="#garden">
+                  contact
+                </a>
+              </li>
 
-class Header extends Component{
-    render(){        
-        return(
-            <React.Fragment>
-                <Jumbotron fluid>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col">
-                                <h1> Nucamp </h1>
-                                <h2> A better way to camp </h2>
-                            </div>
-                        </div>
-                    </div>
-                </Jumbotron>
-            </React.Fragment>
-        )
-    }
-    
+              <li class="nav-item">
+                <a class="nav-link" href="/garden">
+                  about
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/garden">
+                  Projects
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/garden">
+                  resume
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/garden">
+                  Garden
+                </a>
+              </li>
+            </ul>
+          </div>
+        </Navbar>
+      </React.Fragment>
+    );
+  }
 }
 
 export default Header;

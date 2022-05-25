@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+.svg-icon:hover{
+  transform: translateY(-2px);
+
+}
+
+
+a.linkedin {
+  color: #0e76a8;
+  padding: 10px 
+}
+
+a.github {
+  color: #171515;
+  padding: 10px 
+
+}
+
+a.twitter {
+  color: #49a1eb;
+  padding: 10px 
+
+}
+
+.nav{
+  background-color: hsla(0,100%,98%,.07);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+
+
+
+
+

@@ -14,7 +14,9 @@ function About(props) {
     <div className="container">
       <div className="row">
         <div className="col">
-          
+          <Breadcrumb>
+            <BreadcrumbItem active>About Us</BreadcrumbItem>
+          </Breadcrumb>
           <h2>About Us</h2>
           <hr />
         </div>

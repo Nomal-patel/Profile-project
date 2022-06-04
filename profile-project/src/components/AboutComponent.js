@@ -7,23 +7,34 @@ import {
   CardHeader,
   Media
 } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faReact,
+  faLinux,
+  faHtml5,
+  faCss3,
+  faJs,
+  faSass,
+  faBootstrap,
+  faNodeJs,
+  faPython
+} from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 
 function About(props) {
   return (
     <div className="container">
-      <div className="row">
-        <div className="col">
-          <Breadcrumb>
-            <BreadcrumbItem active>About Us</BreadcrumbItem>
-          </Breadcrumb>
-          <h2>About Us</h2>
-          <hr />
+      <div class="hero-section" id="top">
+        <div class="hero-content-container">
+          <h1>Hey there, I’m Your Mum</h1>
+          <h2>Full stack developer from Philadelphia, Pennsylvania</h2>
         </div>
       </div>
-      <div className="row row-content">
-        <div className="col-sm-6">
-          <h3>Our Mission</h3>
+      <hr />
+
+      <div class="info-section" id="about">
+        <div class="about-section">
+          <h2>About Me</h2>
           <p>
             We present a curated database of the best campsites in the vast
             woods and backcountry of the World Wide Web Wilderness. We increase
@@ -34,44 +45,52 @@ function About(props) {
             reviews on campsites they have visited with each other.
           </p>
         </div>
-        <div className="col-sm-6">
-          <Card>
-            <CardHeader className="bg-primary text-white">
-              <h3>Facts At a Glance</h3>
-            </CardHeader>
-            <CardBody>
-              <dl className="row">
-                <dt className="col-6">Founded</dt>
-                <dd className="col-6">February 3, 2016</dd>
-                <dt className="col-6">No. of Campsites in 2019</dt>
-                <dd className="col-6">563</dd>
-                <dt className="col-6">No. of Reviews in 2019</dt>
-                <dd className="col-6">4388</dd>
-                <dt className="col-6">Employees</dt>
-                <dd className="col-6">42</dd>
-              </dl>
-            </CardBody>
-          </Card>
+        <hr />
+
+        <div class="skills-section" id="skills">
+          <h2>Skills</h2>
+          <div class="social">
+            <a href="https://www.linux.org/" className="linux">
+              <FontAwesomeIcon icon={faLinux} size="2x" />
+            </a>
+
+            <a href="https://reactjs.org/" className="react">
+              <FontAwesomeIcon icon={faReact} size="2x" />
+            </a>
+
+            <a href="https://reactjs.org/" className="html">
+              <FontAwesomeIcon icon={faHtml5} size="2x" />
+            </a>
+
+            <a
+              href="https://www.w3.org/Style/CSS/Overview.en.html"
+              className="css"
+            >
+              <FontAwesomeIcon icon={faCss3} size="2x" />
+            </a>
+
+            <a href="https://www.javascript.com/" className="js">
+              <FontAwesomeIcon icon={faJs} size="2x" />
+            </a>
+
+            <a href="https://sass-lang.com/" className="sass">
+              <FontAwesomeIcon icon={faSass} size="2x" />
+            </a>
+
+            <a href="https://getbootstrap.com/" className="bootstrap">
+              <FontAwesomeIcon icon={faBootstrap} size="2x" />
+            </a>
+
+            <a href="https://nodejs.org/en/" className="nodejs">
+              <FontAwesomeIcon icon={faNodeJs} size="2x" />
+            </a>
+
+            <a href="https://www.python.org/" className="python">
+              <FontAwesomeIcon icon={faPython} size="2x" />
+            </a>
+          </div>
         </div>
-        <div className="col">
-          <Card className="bg-light mt-3">
-            <CardBody>
-              <blockquote className="blockquote">
-                <p className="mb-0">
-                  I will not follow where the path may lead, but I will go where
-                  there is no path, and I will leave a trail.
-                  
-                </p>
-                <footer className="blockquote-footer">
-                  Muriel Strode,{" "}
-                  <cite title="Source Title">
-                    "Wind-Wafted Wild Flowers" - The Open Court, 1903
-                  </cite>
-                </footer>
-              </blockquote>
-            </CardBody>
-          </Card>
-        </div>
+        <hr />
       </div>
     </div>
   );

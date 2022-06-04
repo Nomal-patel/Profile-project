@@ -1,19 +1,19 @@
 .App {
   text-align: center;
- }
-  
- .App-logo {
+}
+
+.App-logo {
   height: 40vmin;
   pointer-events: none;
- }
-  
- @media (prefers-reduced-motion: no-preference) {
+}
+
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
- }
-  
- .App-header {
+}
+
+.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,66 +22,236 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
- }
-  
- .App-link {
+}
+
+.App-link {
   color: #61dafb;
- }
-  
- @keyframes App-logo-spin {
+}
+
+@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
- }
-  
- .social-container {
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Sora;
+}
+
+.social-container {
   background: #eee;
-  padding: 25px 50px;
- }
- .svg-icon:hover{
-  transform: translateY(-2px);
-  
- }
-  
-  
- a.linkedin {
+  padding: 16px 50px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.linkedin {
   color: #0e76a8;
-  padding: 10px
- }
-  
- a.github {
+  padding: 15px;
+}
+
+.linkedin:hover {
+  opacity: 0.3;
+  transform: scale(2);
+}
+
+a.github {
   color: #171515;
-  padding: 10px
-  
- }
-  
- a.twitter {
+  padding: 15px;
+}
+
+.github:hover {
+  opacity: 0.3;
+  transform: scale(2);
+}
+
+a.twitter {
   color: #49a1eb;
-  padding: 10px
-  
- }
-  
- .nav-link{
+  padding: 15px;
+}
+
+.twitter:hover {
+  opacity: 0.3;
+  transform: scale(2);
+}
+
+a.google {
+  color: #ff0000;
+  padding: 15px;
+}
+
+.google:hover {
+  opacity: 0.3;
+  transform: scale(2);
+}
+
+a.linux {
+  color: #ff9900;
+  padding: 15px;
+}
+
+.linux:hover {
+  transform: scale(2);
+}
+
+a.react {
+  color: #03dffc;
+  padding: 15px;
+}
+
+.react:hover {
+  transform: scale(2);
+}
+
+a.html {
+  color: #fc8803;
+  padding: 15px;
+}
+
+.html:hover {
+  transform: scale(2);
+}
+
+a.css {
+  color: #1c03fc;
+  padding: 15px;
+}
+
+.css:hover {
+  transform: scale(2);
+}
+
+a.js {
+  color: #f6fa0a;
+  padding: 15px;
+}
+
+.js:hover {
+  transform: scale(2);
+}
+
+a.sass {
+  color: #fc03e3;
+  padding: 15px;
+}
+
+.sass:hover {
+  transform: scale(2);
+}
+
+a.bootstrap {
+  color: #ba03fc;
+  padding: 15px;
+}
+
+.bootstrap:hover {
+  transform: scale(2);
+}
+
+a.nodejs {
+  color: #3eb304;
+  padding: 15px;
+}
+
+.nodejs:hover {
+  transform: scale(2);
+}
+
+a.python {
+  color: #3eb304;
+  padding: 15px;
+}
+
+.python:hover {
+  transform: scale(2);
+}
+
+.nav-link {
   display: flex;
   justify-content: space-between;
+  padding: 5px 25px;
   color: white;
   font-size: large;
- }
-  
- .nav {
+  font-size: 25px;
+}
+
+.nav-link:hover {
+  transform: scale(1.5);
+}
+
+.nav {
   display: flex;
   justify-content: center;
   position: fixed;
   width: 100%;
-  
- }
-  
- .navbar {
+}
+
+.navbar {
   display: flex;
   margin: 0;
-  padding: 30px;
+  padding: 40px;
   background-image: linear-gradient(to left, #000000, #5e5c5c, #000000);
-  color: white; }
+  color: white;
+}
+
+.hero-content-container h1 {
+  font-size: 64px;
+  line-height: 59px;
+  width: 604px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.hero-content-container h2 {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 31px;
+  margin-bottom: 14px;
+  width: 390px;
+  padding-left: 15px;
+}
+
+.hero-section {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.about-section {
+
+  align-items: center;
+  height: 50vh;
+  justify-content: center;
+  padding-left: 15px;
+  flex-wrap: wrap;
+
+}
+
+.skills-section {
+  align-items: center;
+  height: 30vh;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+.info-section h2 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.about-section p {
+  font-size: 25px;
+  line-height: 35px;
+}

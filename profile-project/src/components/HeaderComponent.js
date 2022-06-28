@@ -1,13 +1,9 @@
 import React, { Component } from "react";
-import {
-  Nav,
-  Navbar,
-  NavbarBrand,
-  NavbarToggler,
-  Collapse,
-  NavItem,
-  Jumbotron
-} from "reactstrap";
+import { Navbar } from "reactstrap";
+import { Link } from "react-scroll";
+
+import * as ReactBootStrap from "react-bootstrap";
+
 import { NavLink } from "react-router-dom";
 
 class Header extends Component {
@@ -15,37 +11,32 @@ class Header extends Component {
     return (
       <React.Fragment>
         <Navbar dark sticky="top" expand="md">
-          <div class="nav-links">
+          <div classname="nav-links">
             <ul id="thenav" className="nav">
-              <li class="nav-item">
-                <a aria-current="page" class="nav-link" href="#garden">
-                  contact
-                </a>
+            
+            <li class="nav-item">
+                <Link to="top" smooth={true} offset={-30} duration={300}>
+                  Home
+                </Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/garden">
-                  about
-                </a>
+                <Link to="about" smooth={true} offset={-40} duration={500}>
+                  About
+                </Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/garden">
-                  Projects
-                </a>
+                <Link to="contact" smooth={true} offset={0} duration={500}>
+                  Contact
+                </Link>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="/garden">
-                  resume
-                </a>
-              </li>
+              <a class="nav-link" href="resume/Noman's Resume.pdf" download>
+                Resume
+              </a>
 
-              <li class="nav-item">
-                <a class="nav-link" href="/garden">
-                  Garden
-                </a>
-              </li>
+              
             </ul>
           </div>
         </Navbar>

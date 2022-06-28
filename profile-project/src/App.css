@@ -40,18 +40,51 @@
 body {
   background-color: #000;
   color: #fff;
-  font-family: Sora;
+  font-family: sans-serif;
 }
 
 .social-container {
   background: #eee;
-  padding: 16px 50px;
+  padding: 20px 50px;
+}
+.social-container h2 {
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  line-height: 31px;
+  width: 390px;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.social-container h3 {
+  color: rgb(0, 0, 0);
+  font-weight: 00;
+  line-height: 31px;
+  width: 390px;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 30px;
+  margin-bottom: 25px;
 }
 
 .social {
+  padding: 5px;
+  padding-left: 1px;
+}
+.skill {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px;
+  padding-left: 1px;
+}
+.socials {
+  display: flex;
+  padding: 5px;
+  padding-left: 10px;
 }
 
 a.linkedin {
@@ -166,26 +199,65 @@ a.nodejs {
   transform: scale(2);
 }
 
-a.python {
-  color: #3eb304;
+
+
+a.python{
+  color: yellow;
   padding: 15px;
+
 }
 
 .python:hover {
   transform: scale(2);
 }
 
+a.R{
+  color: #2565e6;
+  padding: 15px;
+
+}
+
+.R:hover {
+  transform: scale(2);
+}
+
+a.Java{
+  color: #ffffff;
+  padding: 15px;
+
+}
+
+.Java:hover {
+  transform: scale(2);
+}
+
+
+
+
+
+
 .nav-link {
-  display: flex;
-  justify-content: space-between;
   padding: 5px 25px;
-  color: white;
+  color: black;
   font-size: large;
   font-size: 25px;
 }
 
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  color: black;
+  font-size: large;
+  font-size: 25px;
+}
+
+.nav-item:hover {
+  color: blue;
+}
+
 .nav-link:hover {
-  transform: scale(1.5);
+  color: blue;
 }
 
 .nav {
@@ -197,17 +269,16 @@ a.python {
 
 .navbar {
   display: flex;
-  margin: 0;
+  margin: 0px;
   padding: 40px;
-  background-image: linear-gradient(to left, #000000, #5e5c5c, #000000);
-  color: white;
+  background: #ffffff;
+  color: black;
 }
 
 .hero-content-container h1 {
   font-size: 64px;
   line-height: 59px;
   width: 604px;
-  padding-left: 15px;
   font-weight: bold;
 }
 
@@ -217,7 +288,6 @@ a.python {
   line-height: 31px;
   margin-bottom: 14px;
   width: 390px;
-  padding-left: 15px;
 }
 
 .hero-section {
@@ -225,25 +295,23 @@ a.python {
   display: flex;
   height: 100vh;
   justify-content: center;
+
 }
 
-.about-section {
 
+
+.about-section {
   align-items: center;
   height: 50vh;
   justify-content: center;
   padding-left: 15px;
-  flex-wrap: wrap;
-
+  padding-top: 150px;
 }
 
 .skills-section {
   align-items: center;
   height: 30vh;
   justify-content: center;
-  flex-wrap: wrap;
-
-
 }
 
 .info-section h2 {
@@ -255,3 +323,4 @@ a.python {
   font-size: 25px;
   line-height: 35px;
 }
+

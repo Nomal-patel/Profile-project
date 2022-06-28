@@ -7,7 +7,6 @@ class Main extends Component {
     return (
       <React.Fragment>
         <Header />
-        <h1>Hello world</h1>
         <About />
         <Footer />
       </React.Fragment>

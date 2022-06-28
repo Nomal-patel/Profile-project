@@ -17,8 +17,12 @@ import {
   faSass,
   faBootstrap,
   faNodeJs,
-  faPython
+  faPython,
+  faRProject,
+  faJava
+  
 } from "@fortawesome/free-brands-svg-icons";
+
 import { Link } from "react-router-dom";
 
 function About(props) {
@@ -49,7 +53,7 @@ function About(props) {
 
         <div class="skills-section" id="skills">
           <h2>Skills</h2>
-          <div class="social">
+          <div class="skill">
             <a href="https://www.linux.org/" className="linux">
               <FontAwesomeIcon icon={faLinux} size="2x" />
             </a>
@@ -85,12 +89,26 @@ function About(props) {
               <FontAwesomeIcon icon={faNodeJs} size="2x" />
             </a>
 
-            <a href="https://www.python.org/" className="python">
-              <FontAwesomeIcon icon={faPython} size="2x" />
+            <a href="https://www.r-project.org/" className="R">
+            <FontAwesomeIcon icon={faRProject} size="2x" />
             </a>
+
+            <a href="https://www.python.org/" className="python">
+            <FontAwesomeIcon icon={faPython} size="2x" />
+            </a>
+            
+            <a href="https://www.java.com/en/" className="Java">
+            <FontAwesomeIcon icon={faJava} size="2x" />
+            </a>
+
+           
+
+            
           </div>
         </div>
+        
         <hr />
+
       </div>
     </div>
   );

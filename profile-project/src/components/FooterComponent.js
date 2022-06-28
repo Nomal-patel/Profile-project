@@ -5,35 +5,51 @@ import {
   faTwitter,
   faGithub,
   faLinkedin,
+  faGoogle
 } from "@fortawesome/free-brands-svg-icons";
-
-import '../App.css'
 
 function Footer() {
   return (
-      <div className="social-container">
-                <div class = "social">
-                    
-                    <a
-                        href="https://www.linkedin.com/in/patel786/"
-                        className="linkedin"
-                    >
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" />
-                    </a>
+    <div className="social-container" id="contact">
+      <h2> Contact me</h2>
+      <div class="social">
+        <ul className="footer" id="socials">
+          <li class="socials">
+            <a
+              href="https://www.linkedin.com/in/patel786/"
+              className="linkedin"
+            >
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            </a>
+            <h3>patel786</h3>
+          </li>
 
-                    <a
-                        href="https://github.com/Nomal-patel?tab=following"
-                        className="github"
-                    >
-                        <FontAwesomeIcon icon={faGithub} size="2x" style=""/>   
+          <li class="socials">
+            <a
+              href="https://github.com/Nomal-patel?tab=following"
+              className="github"
+            >
+              <FontAwesomeIcon icon={faGithub} size="2x" />
+            </a>
+            <h3>Noman-Patel</h3>
+          </li>
 
-                    </a>
-                                           
-                    <a href="https://twitter.com/Noman85896222" className="twitter">
-                        <FontAwesomeIcon icon={faTwitter} size="2x" />
-                    </a>
-                </div>
-            </div>
+          <li class="socials">
+            <a href="https://twitter.com/Noman85896222" className="twitter">
+              <FontAwesomeIcon icon={faTwitter} size="2x" />
+            </a>
+            <h3>Noman85896222</h3>
+          </li>
+
+          <li class="socials">
+            <a href="mailto:nomanpatel39424@gamil.com" className="google">
+              <FontAwesomeIcon icon={faGoogle} size="2x" />
+            </a>
+            <h3>nomanpatel39424@gmail.com</h3>
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 }
 

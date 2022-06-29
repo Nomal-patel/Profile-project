@@ -30,7 +30,7 @@ function About(props) {
     <div className="container">
       <div class="hero-section" id="top">
         <div class="hero-content-container">
-          <h1>Hey there, I’m Your Mum</h1>
+          <h1>Hey there, I’m Noman Patel</h1>
           <h2>Full stack developer from Philadelphia, Pennsylvania</h2>
         </div>
       </div>
@@ -40,13 +40,12 @@ function About(props) {
         <div class="about-section">
           <h2>About Me</h2>
           <p>
-            We present a curated database of the best campsites in the vast
-            woods and backcountry of the World Wide Web Wilderness. We increase
-            access to adventure for the public while promoting safe and
-            respectful use of resources. The expert wilderness trekkers on our
-            staff personally verify each campsite to make sure that they are up
-            to our standards. We also present a platform for campers to share
-            reviews on campsites they have visited with each other.
+            I have been pursuing computer science for 4 years. Becuase of my 
+            curious nature I never stuck at one language for feild and tried
+            out everything although currently I'm sticking with Web Development.
+            Up until now I've been working as a freelancer from small buissness owners 
+            to sophomores in college. I'm currently looking for an opportunity to apply
+            my skills professionally.
           </p>
         </div>
         <hr />

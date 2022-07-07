@@ -1,5 +1,27 @@
 {
-  "name": "profile-porject-work",
+  "name": "profile-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nomal-patel/Profile-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nomal-patel/Profile-project/issues"
+  },
+  "homepage": "https://github.com/Nomal-patel/Profile-project#readme",
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "react-scroll": "^1.8.7",
+    "sass": "^1.52.1"
+  }
+}
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,11 +35,9 @@
     "font-awesome": "^4.7.0",
     "react": "^18.0.0",
     "react-animation-components": "3.0.0",
-    "react-bootstrap": "2.4.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "6",
     "react-scripts": "5.0.1",
-    "react-scroll": "1.8.7",
     "reactstrap": "9.0.2",
     "sass": "^1.51.0",
     "social-media-icons-react": "1.1.10",
@@ -46,7 +66,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "keywords": [],
-  "description": ""
+  }
 }

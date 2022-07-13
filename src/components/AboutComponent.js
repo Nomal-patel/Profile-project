@@ -1,12 +1,4 @@
-import React, { Component } from "react";
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  Card,
-  CardBody,
-  CardHeader,
-  Media
-} from "reactstrap";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faReact,
@@ -23,21 +15,19 @@ import {
   
 } from "@fortawesome/free-brands-svg-icons";
 
-import { Link } from "react-router-dom";
-
 function About(props) {
   return (
     <div className="container">
-      <div class="hero-section" id="top">
-        <div class="hero-content-container">
+      <div className="hero-section" id="top">
+        <div className="hero-content-container">
           <h1>Hey there, I’m Noman Patel</h1>
           <h2>Full stack developer from Philadelphia, Pennsylvania</h2>
         </div>
       </div>
       <hr />
 
-      <div class="info-section" id="about">
-        <div class="about-section">
+      <div className="info-section" id="about">
+        <div className="about-section">
           <h2>About Me</h2>
           <p>
             I have been pursuing computer science for 4 years. Becuase of my 
@@ -50,9 +40,9 @@ function About(props) {
         </div>
         <hr />
 
-        <div class="skills-section" id="skills">
+        <div className="skills-section" id="skills">
           <h2>Skills</h2>
-          <div class="skill">
+          <div className="skill">
             <a href="https://www.linux.org/" className="linux">
               <FontAwesomeIcon icon={faLinux} size="2x" />
             </a>

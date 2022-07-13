@@ -1,11 +1,15 @@
-import React, { Component } from "react";
-import Main from "./components/MainComponent";
+import React from "react";
+import Header from "./components/Header";
+import About from "./components/About";
+import Footer from "./components/Footer";
 import "./App.css";
 
-class App extends Component {
-  render() {
-    return <Main />;
-  }
+export default function App() {
+  return (
+    <>
+      <Header />
+      <About />
+      <Footer />;
+    </>
+  );
 }
-
-export default App;

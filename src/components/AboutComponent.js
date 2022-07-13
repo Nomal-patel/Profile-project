@@ -31,7 +31,7 @@ function About(props) {
           <h2>About Me</h2>
           <p>
             I have been pursuing computer science for 4 years. Becuase of my 
-            curious nature I never stuck at one language for feild and tried
+            curious nature I never stuck at one language or field and tried
             out everything although currently I'm sticking with Web Development.
             Up until now I've been working as a freelancer from small buissness owners 
             to sophomores in college. I'm currently looking for an opportunity to apply

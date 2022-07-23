@@ -277,17 +277,7 @@ a.Java{
   color: black;
 }
 
-@media only screen and (min-width: 774px) {
-    .nav-links {
-        width: 604px;
-    }
-}
 
-@media only screen and (min-width: 1440px) {
-    .nav-links {
-        width: 1098px;
-    }
-}
 
 
 .hero-content-container h1 {

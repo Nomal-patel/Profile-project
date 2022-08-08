@@ -246,6 +246,7 @@ a.Java{
 }
 
 .nav-item {
+  display: flex;
   justify-content: space-between;
   padding: 5px 25px;
   color: black;
@@ -262,6 +263,7 @@ a.Java{
 }
 
 .nav {
+  display: flex;
   justify-content: center;
   position: fixed;
   width: 100%;
@@ -295,6 +297,7 @@ a.Java{
 
 .hero-section {
   align-items: center;
+  display: flex;
   height: 100vh;
   justify-content: center;
 
@@ -325,4 +328,3 @@ a.Java{
   font-size: 25px;
   line-height: 35px;
 }
-
